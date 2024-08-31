@@ -24,9 +24,7 @@ dist-ssr
 *.sw?
 
 /node_modules
+/dev_images
 eslint.config.js
-# package-lock.json
 package.json
-# README.md
 vite.config.js
-# src
