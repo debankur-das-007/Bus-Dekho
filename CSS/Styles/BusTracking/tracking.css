@@ -27,32 +27,124 @@
 }
 .mid-container{
     position: fixed;
-    z-index: 2; /* Ensure it stays above other content */
+    z-index: 5; /* Ensure it stays above other content */
     width: 100%;
-    background: linear-gradient(to bottom, #cecece 0%, #afafaf 10%, transparent 10%);
+    background: linear-gradient(to bottom, #ffffff 0%, #ffffff 10%, transparent 10%);
 }
 .mid{
+    z-index: 5;
     top:0;
 }
 .bus-details-container {
     border-radius: 1em;
     position: fixed; 
-    /* Changed from relative to fixed */
     bottom: -17vh; 
-    /* Start at the bottom */
-    z-index: 0; /* Ensure it's above the mid-container */
     width: 100%;
-    /* Initial height */
     max-height: 85vh; 
-    background-color: lightblue;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
     transition: 0.3s ease;
 }
-
-
+.bus-details{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.line1{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.line-icon {
+    margin-top: 9px;
+    width: 72px;
+    height: 10px; 
+    background-image: url("/images/line.png");
+    opacity: 0.5;
+    background-repeat: no-repeat;
+    background-size: contain; 
+}
+.line2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+.arriving-status{
+    display: flex;
+    width: 46%;
+}
+.arriving , .eta{
+    background-color: #e6e6e6;
+    border-radius: 0.25em;
+    margin: 2px;
+    padding-left: 7px;
+    padding-right: 7px;
+    font-size: 0.7em;
+    font-weight: 400;
+}
+.line3{
+    margin-top: 10px;
+    display: flex;
+    font-size: 0.8em;
+    display: flex;
+}
+.bus-location{
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-self: center;
+    align-self: center;
+}
+.bus-location >  b:nth-of-type(2){
+    white-space:initial;
+}
+.arrow-icon{
+    width: 15px;
+    margin: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.line4{
+    font-size: 0.8em;
+    display: flex;
+    margin-top: 10px;
+}
+.line5{
+    display: flex;
+    margin-top: 8px;
+}
+.line6{
+    font-size: 0.8em;
+    display: flex;
+    flex-direction: column;
+    margin-top: 8px;
+}
+.line6 > * {
+    padding-top: 6vh;
+}
+.bus-features-ev , .bus-features-ac{
+    background-color: #ececec;
+    border-radius: 0.25em;
+    margin: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 0.7em;
+    font-weight: 500;
+}
 .bottom{
     position:relative;
-    z-index: 2;
-    background-color: blue;
+    z-index: 5;
     width: 100%;
 }
-
+main{
+    width: 100vw;
+    height: 100%;
+}
+#map {
+    width: 100%;
+    position: fixed;
+    z-index: 0;
+    height: 60vh;
+}
