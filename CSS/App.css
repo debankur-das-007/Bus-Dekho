@@ -8,8 +8,6 @@
   display: flex;
   margin: 0;
   padding: 0;
-  width:100vw;
-  height: 100%;
   display: flex;
   justify-content: center;
   background-color: rgb(255, 255, 255);
@@ -30,4 +28,5 @@ body{
   height: 100vh;
   display: flex;
   flex-direction: column;
+  position: relative;
 }
