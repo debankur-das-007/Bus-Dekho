@@ -24,7 +24,7 @@ dist-ssr
 *.sw?
 
 /node_modules
-/dev_images
+/Zdev_images
 eslint.config.js
 package.json
 vite.config.js
