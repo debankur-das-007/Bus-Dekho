@@ -1,0 +1,16 @@
+.top {
+  height: 25%;
+  position: relative;
+  background-color: rgb(50, 70, 184);
+}
+
+.bottom {
+  position: fixed;
+  z-index: 1;
+  color: black;
+}
+
+.bottom-nav {
+  position: fixed;
+  background-color: white;
+}

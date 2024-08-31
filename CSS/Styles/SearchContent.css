@@ -1,0 +1,134 @@
+.mid {
+  position: absolute;
+  top: 20%;
+  left: 5%;
+  right: 5%;
+  display: flex;
+  flex-direction: column;
+  color: black;
+  border-radius: 10px;
+  z-index: 1;
+}
+
+.to-from {
+  display: flex;
+  flex-direction: column;
+  flex: 2;
+}
+
+.up-down-arrow {
+  width: 20px;
+  align-items: center;
+  padding-top: 37px;
+}
+
+.search-content1 {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  box-shadow: 0px 0px 8px 2px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  background-color: white;
+  height: 100px;
+}
+
+.from_location,
+.to_location {
+  background-color: inherit;
+  border: none;
+  font-weight: 700;
+  color: black;
+}
+
+.from_location:focus {
+  border-bottom: 2px solid green;
+  /* Add a thin line under the from_location input when focused */
+}
+
+.to_location:focus {
+  border-bottom: 2px solid green;
+  /* Add a thin line under the to_location input when focused */
+}
+
+.from-location-label,
+.to-location-label {
+  color: rgba(78, 78, 78, 0.8);
+}
+
+.location-arrows {
+  width: 100%;
+}
+
+.from-location-container {
+  padding-bottom: 2px;
+  border-bottom: 1px solid black;
+}
+
+.date-search {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 10px;
+  border-radius: 10px;
+  gap: 7px;
+}
+
+#departure-date-select {
+  margin: 2px 8px;
+}
+
+.date-sel {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.today, .tomorrow{
+  font-size: clamp(10px, 1.5vw, 20px);
+}
+.today-bold, .tomorrow-bold{
+  color: rgb(0, 189, 0);
+}
+.today-greyed, .tomorrow-greyed{
+  color: rgb(153, 153, 153);
+}
+.today-tomorrow{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.search svg {
+  width: 100%;
+  padding-top: 9px;
+}
+
+.search input {
+  border-style: none;
+  width: 100%;
+  padding-left: 5px;
+}
+
+.search {
+  overflow: hidden;
+  width: 100vw;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 0px 8px 2px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  background-color: white;
+}
+
+.user-arrival-departure-container2 {
+  display: flex;
+  justify-content: space-between;
+  flex: 1.5;
+  box-shadow: 0px 0px 8px 2px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  margin: 0px 5px;
+  padding: 2px;
+  background-color: white;
+}

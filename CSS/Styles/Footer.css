@@ -1,0 +1,30 @@
+.footer{
+    display: flex;
+    align-items: center;
+    position: fixed;
+    z-index: 3;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2); /* Add box shadow to the top */
+}
+
+.footer>ul{
+    width: 100vw;
+    padding: 2%;
+    justify-content: space-between;
+    list-style: none;
+    display: flex;
+}
+.footer > ul > li{
+    font-size: smaller;
+    align-items: center;
+    padding-top:1vh;
+    padding-bottom: 0.5vh;
+    display: flex;
+    flex-direction: column;
+}
+.footer-icons{
+    width: 30%;
+}

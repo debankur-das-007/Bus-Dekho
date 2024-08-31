@@ -1,0 +1,73 @@
+.buses-list{
+    background-color: white;
+    margin-top:1vh;
+    color: rgb(0, 0, 0);
+    padding-bottom: 60px;
+    list-style: none;
+    height: 100%;
+}
+.buses{
+    padding: 2%;
+    border:solid 1px rgb(255, 255, 255);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(255, 255, 255);
+    justify-content: space-between;
+    height: 100%;
+}
+.bus-container{
+    border-radius: 20px;
+    margin-bottom: 3%;
+    background: radial-gradient(black, white);
+    padding: 1%;
+}
+.bus-container-left{
+    max-width: 340px;
+    justify-content: space-between;
+}
+.bus-left-line1{
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+.bus-arriving{
+    margin-left:1%;
+    color: green;
+}
+
+.bus-departing{
+    margin-left:1%;
+    color: red;
+}
+
+.bus-left-line2{
+    display: flex;
+    align-items: center;
+}
+
+.bus-arrow{
+    margin-left: 2%;
+    margin-right: 2%;
+    align-self: center;
+    width: 5%;
+}
+
+.bus-right-time{
+    padding:1px;
+    border-radius:3px;
+    color: rgb(0, 156, 0);
+    background-color: rgba(97, 96, 96, 0.1);
+}
+
+.bus-left-line3{
+    display: flex;
+}
+
+.bus-features{
+    border-radius: 5px;
+    padding: 0.5%;
+    background-color: rgba(0,0,0,0.1);
+    margin-right: 2%;
+}
