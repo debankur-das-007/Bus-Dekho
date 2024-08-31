@@ -4,6 +4,8 @@
     overflow-x: hidden;
 }
 .top{
+    margin: 0;
+    margin-top:8px ;
     width: 100%;
     align-content: center;
     height:8vh;
