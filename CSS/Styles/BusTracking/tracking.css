@@ -1,0 +1,58 @@
+
+.app{
+    width: 100%;
+    overflow-x: hidden;
+}
+.top{
+    width: 100%;
+    align-content: center;
+    height:8vh;
+    max-height: 80px;
+}
+.navbar{
+    padding-left:3% ;
+    padding-right:3% ;
+    justify-content: space-between;
+    display: flex;
+}
+.nav-icons{
+    width: 30px;
+    height: 30px;
+}
+.test{
+    margin-top: 11%;
+    background-color: rgb(94, 94, 94);
+    width: 100%;
+    height: 70vh;
+}
+.mid-container{
+    position: fixed;
+    z-index: 2; /* Ensure it stays above other content */
+    width: 100%;
+    background: linear-gradient(to bottom, #cecece 0%, #afafaf 10%, transparent 10%);
+}
+.mid{
+    top:0;
+}
+.bus-details-container {
+    border-radius: 1em;
+    position: fixed; 
+    /* Changed from relative to fixed */
+    bottom: -17vh; 
+    /* Start at the bottom */
+    z-index: 0; /* Ensure it's above the mid-container */
+    width: 100%;
+    /* Initial height */
+    max-height: 85vh; 
+    background-color: lightblue;
+    transition: 0.3s ease;
+}
+
+
+.bottom{
+    position:relative;
+    z-index: 2;
+    background-color: blue;
+    width: 100%;
+}
+
