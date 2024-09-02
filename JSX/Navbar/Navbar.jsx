@@ -67,6 +67,30 @@ export default function Navbar(props) {
                   <div className="text-holder">Report Issue</div>
                 </div>
               </a>
+              <a href='../../html/driversPortal.html' target='_blank'>
+                <div className="content">
+                  <div className="icon1">
+                    <img src="#" />
+                  </div>
+                  <div className="text-holder">Driver's Portal</div>
+                </div>
+              </a>
+              <a href='../../html/busTracking.html' target='_blank'>
+                <div className="content">
+                  <div className="icon1">
+                    <img src="#" />
+                  </div>
+                  <div className="text-holder">Tracking Portal</div>
+                </div>
+              </a>
+              <a href='index.html'>
+                <div className="content">
+                  <div className="icon1">
+                    <img src="#" />
+                  </div>
+                  <div className="text-holder">Home</div>
+                </div>
+              </a>
             </div>
             <div className="nav">
               <div>App Version 1.0.0</div>
