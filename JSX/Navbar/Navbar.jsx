@@ -25,7 +25,7 @@ export default function Navbar(props) {
 
         <div className="super">
           <div className="top1">
-            <div className='app-name'>Bus App Name</div>
+            <div className='app-name'>BusDekho</div>
             <div className='cross'>
               <input type="checkbox" id="close" />
               <label htmlFor="open">
@@ -38,7 +38,7 @@ export default function Navbar(props) {
               <a href="#">
                 <div className="content">
                   <div className="icon1">
-                    <img src="#" />
+                    <img src="/images/languages.svg" />
                   </div>
                   <div className="text-holder">Language</div>
                 </div>
@@ -70,7 +70,7 @@ export default function Navbar(props) {
             </div>
             <div className="nav">
               <div>App Version 1.0.0</div>
-              <div>Date</div>
+              <div>Date: 03/09/2024</div>
             </div>
           </div>
         </div>

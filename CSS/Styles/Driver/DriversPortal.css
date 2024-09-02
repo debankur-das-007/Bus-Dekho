@@ -102,3 +102,11 @@ body {
     padding-bottom: 5px;
     height: 15px;
 }
+
+.bus-arrow{
+    width:7vw;
+}
+
+.bus-left-line2{
+    /* white-space: nowrap; */
+}
