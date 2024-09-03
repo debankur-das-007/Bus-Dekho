@@ -29,7 +29,7 @@ export default function Navbar(props) {
             <div className='cross'>
               <input type="checkbox" id="close" />
               <label htmlFor="open">
-                <img src='\src\assets\png-transparent-computer-icons-share-icon-hamburger-button-crossed-logo-share-icon-symbol.png' />
+                <img src='/images/cross.svg' />
               </label>
             </div>
           </div>
@@ -46,7 +46,7 @@ export default function Navbar(props) {
               <a href="#">
                 <div className="content">
                   <div className="icon1">
-                    <img src="#" />
+                    <img src="/images/settings.svg" />
                   </div>
                   <div className="text-holder">Settings</div>
                 </div>
@@ -54,7 +54,7 @@ export default function Navbar(props) {
               <a href="#">
                 <div className="content">
                   <div className="icon1">
-                    <img src="#" />
+                    <img src="/images/share.svg" />
                   </div>
                   <div className="text-holder">Share</div>
                 </div>
@@ -62,7 +62,8 @@ export default function Navbar(props) {
               <a href="#">
                 <div className="content">
                   <div className="icon1">
-                    <img src="#" />
+                    {/* <img src="#" alt="ⓘ" /> */}
+                    <pre>ⓘ</pre>
                   </div>
                   <div className="text-holder">Report Issue</div>
                 </div>
@@ -70,7 +71,7 @@ export default function Navbar(props) {
               <a href='../../html/driversPortal.html' target='_blank'>
                 <div className="content">
                   <div className="icon1">
-                    <img src="#" />
+                    {/* <img src="#" /> */}
                   </div>
                   <div className="text-holder">Driver's Portal</div>
                 </div>
@@ -78,7 +79,7 @@ export default function Navbar(props) {
               <a href='../../html/busTracking.html' target='_blank'>
                 <div className="content">
                   <div className="icon1">
-                    <img src="#" />
+                    {/* <img src="#" /> */}
                   </div>
                   <div className="text-holder">Tracking Portal</div>
                 </div>
@@ -86,7 +87,7 @@ export default function Navbar(props) {
               <a href='index.html'>
                 <div className="content">
                   <div className="icon1">
-                    <img src="#" />
+                    {/* <img src="#" /> */}
                   </div>
                   <div className="text-holder">Home</div>
                 </div>

@@ -117,7 +117,9 @@ export default function Tracking(props) {
         <div className="app">
             <nav className="top">
                 <div className="navbar">
-                    <img src="/images/back-icon.svg" className="nav-icons nav-back-icon"></img>
+                    <a href="/">
+                       <img src="/images/back-icon.svg" className="nav-icons nav-back-icon"></img>
+                    </a>
                     <h3>Bus Tracking</h3>
                     <img src="/images/profile_pic.png" alt="" className="nav-icons profile_pic" />
                 </div>
