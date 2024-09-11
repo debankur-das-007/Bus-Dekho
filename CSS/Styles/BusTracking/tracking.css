@@ -21,6 +21,13 @@
     width: 30px;
     height: 30px;
 }
+
+.nav-icons:focus {
+    outline:white;
+}
+.nav-icons:active {
+    outline:white;
+}
 .test{
     margin-top: 11%;
     background-color: rgb(94, 94, 94);
