@@ -61,63 +61,18 @@ export default function Tracking(props) {
             function onSuccess(position) {
                 var lat = position.coords.latitude;
                 var lng = position.coords.longitude;
-                // var accuracy = position.coords.accuracy;
-
-                // Add a marker and circle for the user's location
-                // L.marker([lat, lng]).addTo(map);
-                // L.circle([lat, lng], { radius: accuracy }).addTo(map);
                 L.marker([lat, lng]).addTo(map)
                 .bindPopup('You are here')
                 .openPopup();
                 // Set the map view to the user's location
                 map.setView([lat, lng], 16);
 
-                // Add routing control
-                // const routingControl = L.Routing.control({
-                //     waypoints: [
-                //         L.latLng(lat, lng),
-                //         L.latLng(22.576817278808065, 88.42870331084117) // Example destination
-                //     ],
-                //     createMarker: () => null,
-                //     lineOptions: {
-                //         styles: [{ color: 'blue', opacity: 0.6, weight: 4 }]
-                //     },
-                //     addWaypoints: false,
-                //     draggableWaypoints: false,
-                //     fitSelectedRoutes: true,
-                //     show: false,
-                //     routeWhileDragging: false,
-                //     autoRoute: true,
-                //     useZoomParameter: false,
-                //     showAlternatives: false,
-                //     altLineOptions: {
-                //         styles: [{ color: 'green', opacity: 0.6, weight: 4 }]
-                //     }
-                // }).addTo(map);
-
-                // routingControl.on('routesfound', () => {
-                //     const unwantedElement = document.querySelector('#map > div.leaflet-control-container > div.leaflet-top.leaflet-right');
-                //     if (unwantedElement) {
-                //         unwantedElement.remove();
-                //     }
-                // });
             }
 
             function onError(error) {
                 console.error('Error getting location: ', error);
                 alert('Unable to retrieve your location.');
             }
-
-            // Check if geolocation is supported and get the current position
-            // if (navigator.geolocation) {
-            //     navigator.geolocation.watchPosition(onSuccess, onError, {
-            //         enableHighAccuracy: true, // Request high accuracy
-            //         timeout: 10000, // 10 seconds timeout
-            //         maximumAge: 0 // No cached position
-            //     });
-            // } else {
-            //     alert('Geolocation is not supported by this browser.');
-            // }
             if (navigator.geolocation) {
                 navigator.geolocation.getCurrentPosition(onSuccess, onError);
             } else {
